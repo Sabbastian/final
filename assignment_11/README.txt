@@ -1,3 +1,15 @@
+VERSION 0.2
+4/12/18
+
+To-Do:
+-Allow mixed lower and uppercase searches
+-Add sound files to the database/results
+-Make user friendly clickable instrument images in addition to a search
+-Increase instrument and technique lists in database
+-Add technique images/sound clips
+
+Bugs:
+
 VERSION 0.1
 4/3/18
 
@@ -12,16 +24,3 @@ To-Do:
 
 Bugs:
 -Searching for "String" by family will display the last result (Contrabass) rather than the first (Violin).
-
-
-VERSION 0.2
-4/12/18
-
-To-Do:
--Allow mixed lower and uppercase searches
--Add sound files to the database/results
--Make user friendly clickable instrument images in addition to a search
--Increase instrument and technique lists in database
--Add technique images/sound clips
-
-Bugs:
