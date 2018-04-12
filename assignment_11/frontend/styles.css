@@ -1,0 +1,32 @@
+button {
+
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonoff {
+  background-color: black;
+}
+
+.buttonon {
+  background-color: #3498DB;
+}
+
+.choicebuttonoff {
+  background-color: black;
+}
+
+.choicebuttonon {
+  background-color: #3498DB;
+}
+
+.techbuttonoff {
+  background-color: black;
+}
+
+.techbuttonon {
+  background-color: #3498DB;
+}

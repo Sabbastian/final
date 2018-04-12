@@ -1,0 +1,44 @@
+<html>
+  <title>Composer's Instrument Guide</title>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h2>Instrument Guide for Composers</h2>
+    <p>Basic information to help writing for instruments</p> <br><br>
+      <div>
+        Search for instrument by:
+
+        <button onclick='selectType("name")' id="name" class='buttonon'>Name</button>
+        <button onclick='selectType("family")' id="family" class='buttonoff'>Family</button>
+        <button onclick='selectType("range")' id="range" class='buttonoff'>Range</button> <br> <br>
+
+        <input id="input" type="text"/>
+
+        <input onclick='searchInst(search_type)' id="search" type="submit" value="Search"/>
+
+      </div> <br>
+
+    <div id='choices'></div>
+
+    <img id='i_img'></img> <br> <br>
+    <div id='i_name'></div> <br>
+    <div id='i_family'></div> <br>
+    <div id='i_class'></div> <br>
+    <div id='i_clef'></div> <br>
+    <div id='i_range'></div> <br>
+    <div id='i_transp'></div> <br>
+    <div id='i_image'></div>
+    <div id='i_ainfo'></div>
+    <div id='i_tech_header'></div> <br>
+
+    <div id='tech_choices'></div> <br>
+
+    <div id='i_tech_info'></div>
+
+    <script src='script.js'></script>
+
+  </body>
+</html>
